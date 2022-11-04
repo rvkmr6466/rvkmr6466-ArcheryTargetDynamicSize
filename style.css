@@ -1,0 +1,25 @@
+.target {
+  display: grid;
+  height: 400px;
+  width: 400px;
+  grid-template-columns: repeat(20, 1fr);
+  grid-template-rows: repeat(20, 1fr);
+}
+
+.blue-outer {
+  background-color: blue;
+  grid-column: 5 / 17;
+  grid-row: 5 / 17;
+}
+
+.red-outer {
+  background-color: red;
+  grid-column: 7 / 15;
+  grid-row: 7 / 15;
+}
+
+.gold-outer {
+  background-color: gold;
+  grid-column: 9 / 13;
+  grid-row: 9 / 13;
+}
